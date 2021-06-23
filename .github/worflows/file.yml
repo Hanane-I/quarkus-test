@@ -1,0 +1,7 @@
+build:
+  steps:
+    - script:
+        name: echo java information
+        code: |
+          echo "java running"
+     
