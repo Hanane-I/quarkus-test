@@ -12,7 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: build
+        run: ./mvnw compile
+        
+      - name: test
+        run: ./mvnw test
 
