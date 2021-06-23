@@ -13,8 +13,8 @@ jobs:
 
     steps:
       - name: build
-        run: ./mvnw compile
+        run: mvn compile
         
       - name: test
-        run: ./mvnw test
+        run: mvn test
 
